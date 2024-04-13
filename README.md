@@ -19,12 +19,12 @@
 - [GroupMealsList.cs](Module04Navigation/Module04Navigation/GroupMealsList.cs)
 - [ChickenInasalList.cs](Module04Navigation/Module04Navigation/ChickenInasalList.cs)
 ### Output Screenshots
-![Tab-1](Screenshots/Tab-1.png){:width="300"}
-![Tab-2-1](Screenshots/Tab-2-1.png){:width="300"}
-![Tab-2-2](Screenshots/Tab-2-2.png){:width="300"}
-![Tab-2-3](Screenshots/Tab-2-3.png){:width="300"}
-![Tab-2-4](Screenshots/Tab-2-4.png){:width="300"}
-![Tab-3](Screenshots/Tab-3.png){:width="300"}
+<img src="Screenshots/Tab-1.png" alt="Tab-1" width="360" height="780">
+<img src="Screenshots/Tab-2-1.png" alt="Tab-2-1" width="360" height="780">
+<img src="Screenshots/Tab-2-2.png" alt="Tab-2-2" width="360" height="780">
+<img src="Screenshots/Tab-2-3.png" alt="Tab-2-3" width="360" height="780">
+<img src="Screenshots/Tab-2-4.png" alt="Tab-2-4" width="360" height="780">
+<img src="Screenshots/Tab-3.png" alt="Tab-3" width="360" height="780">
 
 ## CarouselPage Navigation
 ### Source Code
