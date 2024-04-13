@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0glpA96V8zZ2/W2V5x4yKIVcR3Clj2bLjVpj9CfpGKLhnukurm4ZiPrmqD9WSrP9w1qG89WUSfm58BewyOerhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EL-J\\source\\repos\\Module04Navigation\\Module04Navigation\\Module04Navigation\\Module04Navigation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EL-J\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\EL-J\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\EL-J\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\EL-J\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\EL-J\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

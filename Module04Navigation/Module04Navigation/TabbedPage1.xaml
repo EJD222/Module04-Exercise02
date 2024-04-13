@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="Module04Navigation.TabbedPage1"
+                Title="ELMALIA JANE S. DIAZ">
+
+    <!-- Tab 1: Menu -->
+    <ContentPage Title="Menu">
+        <StackLayout BackgroundColor="#FFFFFF"
+                     Padding="10">
+
+            <!--Group Meals-->
+            <Label Text="Group Meals" 
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#000000"/>
+            <Frame Padding="10" 
+                       Margin="0" 
+                       CornerRadius="0" 
+                       HasShadow="False">
+                <ListView x:Name="GroupMealsListView"
+                              ItemsSource="{Binding GroupMeals}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell ImageSource="{Binding Image}"
+                                           Text="{Binding ItemName}"
+                                           TextColor="Black"
+                                           Detail="{Binding Price}"
+                                           DetailColor="#2D9751">
+                                <ImageCell.ContextActions>
+                                    <MenuItem Text="Delete" />
+                                    <MenuItem Text="MORE" />
+                                </ImageCell.ContextActions>
+                            </ImageCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+            <!--Chicken Inasal-->
+            <Label Text="Chicken Inasal" 
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="#000000"/>
+            <Frame Padding="10" 
+                   Margin="0" 
+                   CornerRadius="0" 
+                   HasShadow="False">
+                <ListView x:Name="ChickenInasalListView"
+                          ItemsSource="{Binding ChickenInasal}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell ImageSource="{Binding Image}"
+                                       Text="{Binding ItemName}"
+                                       TextColor="Black"
+                                       Detail="{Binding Price}"
+                                       DetailColor="#2D9751">
+                                <ImageCell.ContextActions>
+                                    <MenuItem Text="Delete" />
+                                    <MenuItem Text="MORE" />
+                                </ImageCell.ContextActions>
+                            </ImageCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage>
+
+    <!-- Tab 2: Order Form -->
+    <ContentPage Title="Order">
+        <StackLayout Padding="40, 10"
+                     VerticalOptions="Center">
+
+            <Label Text="Place Your Order" 
+                   FontSize="30" 
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Start" 
+                   Margin="0,10,0,5"/>
+
+            <Label Text="Please provide the following information to process your order."
+                   Margin="0,10,0,20"/>
+
+            <Entry x:Name="FullNameEntry"
+                   Placeholder="Full Name" 
+                   Margin="0,0,0,15"/>
+
+            <Entry x:Name="AddressEntry"
+                   Placeholder="Address" 
+                   Margin="0,0,0,15"/>
+
+            <Picker x:Name="PaymentPicker"
+                    Title="Select Mode of Payment" 
+                    Margin="0,0,0,15">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Cash</x:String>
+                        <x:String>Credit Card</x:String>
+                        <x:String>Online Payment</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="ItemPicker"
+                    Title="Select Item" 
+                    Margin="0,0,0,15">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Chicken Inasal and Grilled Liempo Family Fiesta</x:String>
+                        <x:String>Chicken Inasal and Pork BBQ Buddy Fiesta</x:String>
+                        <x:String>Pork BBQ and Grilled Liempo Family Fiesta</x:String>
+                        <x:String>Chicken Inasal and Grilled Liempo Buddy Fiesta</x:String>
+                        <x:String>Chicken Inasal and 1 pc Pork BBQ Solo Fiesta</x:String>
+                        <x:String>Chicken Inasal Paa and Pork BBQ Buddy Size</x:String>
+                        <x:String>Chicken Inasal Solo Fiesta</x:String>
+                        <x:String>Paa Large - PM1</x:String>
+                        <x:String>Pecho Large - PM2</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Entry x:Name="QuantityEntry"
+                   Placeholder="Enter Quantity" 
+                   Margin="0,0,0,15"/>
+
+            <Entry x:Name="SpecialInstructionsEntry"
+                   Placeholder="Special Instructions" 
+                   Margin="0,0,0,30"/>
+
+            <Button Text="Place Order" 
+                    BackgroundColor="#2D9751"
+                    HorizontalOptions="FillAndExpand"
+                    TextColor="White"
+                    Clicked="SubmitButton_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+
+    <!-- Tab 3: Delivery -->
+    <ContentPage Title="Delivery">
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center"
+                     Padding="0, 70">
+            <Grid Padding="0, 50"
+                  HorizontalOptions="CenterAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Thank you for your order!"
+                       TextColor='Black'
+                       FontAttributes="Bold"
+                       FontSize="25"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,50,0,0"/>
+
+                <Image Source="DeliveryMan.png"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="0,15,0,0"/>
+
+                <Label Text="Your order will arrive soon."
+                       TextColor='Black'
+                       FontSize="Small"
+                       Grid.Row="2"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,20,0,0"/>
+
+                <Button Text="Continue"
+                        TextColor="#FFFFFF"
+                        Background="#2D9751"
+                        CornerRadius="3"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="0,-155,0,0"/>
+
+                <Button Text="Track"
+                        TextColor="#FFFFFF"
+                        Background="#2D9751"
+                        CornerRadius="3"
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        WidthRequest="100"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="0,-155,0,0"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
