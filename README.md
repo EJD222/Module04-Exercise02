@@ -21,14 +21,14 @@
 - [GroupMealsList.cs](Module04Navigation/Module04Navigation/GroupMealsList.cs)
 - [ChickenInasalList.cs](Module04Navigation/Module04Navigation/ChickenInasalList.cs)
 ### Output Screenshots
-<div style="text-align: center;">
-    <img src="Screenshots/Tab-1.png" alt="Tab-1" width="270" height="585"><br />
-    <img src="Screenshots/Tab-2-1.png" alt="Tab-2-1" width="270" height="585"><br />
-    <img src="Screenshots/Tab-2-2.png" alt="Tab-2-2" width="270" height="585"><br />
-    <img src="Screenshots/Tab-2-3.png" alt="Tab-2-3" width="270" height="585"><br />
-    <img src="Screenshots/Tab-2-4.png" alt="Tab-2-4" width="270" height="585"><br />
-    <img src="Screenshots/Tab-3.png" alt="Tab-3" width="270" height="585">
-</div>
+<p align="center">
+  <img src="Screenshots/Tab-1.png" alt="Tab-1" width="270" height="585"><br />
+  <img src="Screenshots/Tab-2-1.png" alt="Tab-2-1" width="270" height="585"><br />
+  <img src="Screenshots/Tab-2-2.png" alt="Tab-2-2" width="270" height="585"><br />
+  <img src="Screenshots/Tab-2-3.png" alt="Tab-2-3" width="270" height="585"><br />
+  <img src="Screenshots/Tab-2-4.png" alt="Tab-2-4" width="270" height="585"><br />
+  <img src="Screenshots/Tab-3.png" alt="Tab-3" width="270" height="585">
+</p>
 
 ## CarouselPage Navigation
 ### Source Code
