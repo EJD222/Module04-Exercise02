@@ -10,9 +10,9 @@
 - [MainPage.xaml](Module04Navigation/Module04Navigation/MainPage.xaml)
 - [MainPage.xaml.cs](Module04Navigation/Module04Navigation/MainPage.xaml.cs)
 ### Output Screenshot
-<div style="text-align: center;">
+<p align="center">
     <img src="Screenshots/Dashboard.png" alt="Main Page" width="270" height="585">
-</div>
+</p>
 
 ## TabbedPage Navigation
 ### Source Code
@@ -22,11 +22,11 @@
 - [ChickenInasalList.cs](Module04Navigation/Module04Navigation/ChickenInasalList.cs)
 ### Output Screenshots
 <p align="center">
-  <img src="Screenshots/Tab-1.png" alt="Tab-1" width="270" height="585"><br />
-  <img src="Screenshots/Tab-2-1.png" alt="Tab-2-1" width="270" height="585"><br />
+  <img src="Screenshots/Tab-1.png" alt="Tab-1" width="270" height="585">
+  <img src="Screenshots/Tab-2-1.png" alt="Tab-2-1" width="270" height="585">
   <img src="Screenshots/Tab-2-2.png" alt="Tab-2-2" width="270" height="585"><br />
-  <img src="Screenshots/Tab-2-3.png" alt="Tab-2-3" width="270" height="585"><br />
-  <img src="Screenshots/Tab-2-4.png" alt="Tab-2-4" width="270" height="585"><br />
+  <img src="Screenshots/Tab-2-3.png" alt="Tab-2-3" width="270" height="585">
+  <img src="Screenshots/Tab-2-4.png" alt="Tab-2-4" width="270" height="585">
   <img src="Screenshots/Tab-3.png" alt="Tab-3" width="270" height="585">
 </p>
 
@@ -36,9 +36,9 @@
 - [CarouselPage1.xaml.cs](Module04Navigation/Module04Navigation/CarouselPage1.xaml.cs)
 - [MangInasalPromos.cs](Module04Navigation/Module04Navigation/MangInasalPromos.cs)
 ### Output Screenshots
-<div style="text-align: center;">
+<p align="center">
     <img src="Screenshots/Page-1.png" alt="Page-1" width="270" height="585">
-    <img src="Screenshots/Page-2.png" alt="Page-2" width="270" height="585">
+    <img src="Screenshots/Page-2.png" alt="Page-2" width="270" height="585"><br />
     <img src="Screenshots/Page-3-1.png" alt="Page-3-1" width="270" height="585">
     <img src="Screenshots/Page-3-2.png" alt="Page-3-2" width="270" height="585">
-</div>
+</p>
